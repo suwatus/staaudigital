@@ -1,13 +1,6 @@
 {
-  "routes": [
-    {
-      "src": "/app-ads.txt",
-      "dest": "/app-ads.txt",
-      "headers": {
-        "Content-Type": "text/plain; charset=utf-8"
-      }
-    }
-  ],
+  "public": true,
+  "cleanUrls": true,
   "headers": [
     {
       "source": "/app-ads.txt",
